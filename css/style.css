@@ -1,85 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-   
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    
-    background-image: url("/img/fond.png");
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+html {
+  background-image: url("/img/fond.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
 }
 
-    
-body{
-    font-size: 16px;
-    width: 750px;
-    background-color: white;
-   
-    
-
-
+main {
+  font-size: 16px;
+  width: 700px;
+  background-color: white;
+  padding: 15px 5px;
 }
-header{
-    display: flex;
-    background-color:rgb(245,229,160);
-    justify-content: space-between;
-    align-items:center;
-    padding:18px; 
-    text-transform: uppercase;
-    
-
-    /* flex-wrap: nowrap; */
-
+header {
+  display: flex;
+  font-size: 18px;
+  background-color: rgb(245, 229, 160);
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  text-transform: uppercase;
 }
 
-h2, nav a{
-    font-family: 'Oswald', sans-serif;
-    color:rgb(255,141,0);
-    margin: 1em;
-
-
-    
+h2,
+nav a {
+  font-family: "Oswald", sans-serif;
+  color: rgb(255, 141, 0);
+  padding: 10px;
 }
 
-h2{
-
-    font-size: 24px;
-    font-weight: bolder;
-    /* color:rgb(255,141,0); */
+h2 {
+  font-size: 24px;
+  font-weight: bolder;
 }
-a{
-    font-weight: 900;
-    text-decoration: none;
+a {
+  font-weight: 900;
+  text-decoration: none;
 }
-
-
-
-article img{
-    margin: 10px;
-    float: left;  
-    width: 45%;
-    height: auto;
-}
-ul{
-    margin:50px;
+p {
+  word-spacing: 10px;
+  text-align: justify;
+  padding: 10px 20px;
 }
 
-
-article a{
-  
-    
+article img {
+  margin: 10px;
+  float: inline-start;
+  width: 300px;
+  height: 150px;
 }
-.button{
-    background-color:rgb(255,141,0) ;
-    color: white;       
-    padding: 12px 10px;
-    text-align: center;
-    margin: 4px;
-    cursor: pointer;
+ul {
+  margin-left: 50px;
+}
+#bth {
+  clear: both;
+  padding-top: 0;
+}
+
+article {
+  display: inline-block;
+}
+
+.button {
+  background-color: rgb(255, 141, 0);
+  color: white;
+  padding: 12px 10px;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
 }
